@@ -307,13 +307,20 @@ export type Project = {
 const projects: Project[] = [
 
   { // 01. Healthcare App (In Progress)
-    id: "Healthcare App",
+    // id: "Healthcare App",
+    // category: "Healthcare App",
+    // title: "My Healthcare App",
+    // src: "/assets/projects-screenshots/Sangeetaprojects/DoctorSelection.png",
+    // screenshots: ["/assets/projects-screenshots/Sangeetaprojects/DoctorSelection.png"],
+    // live: "https://www.abhijitzende.com/",
+    // github:"https://github.com/Sangeeta-Prajapati/HealthCare-Project.git",
+     id: "Healthcare App",
     category: "Healthcare App",
     title: "My Healthcare App",
     src: "/assets/projects-screenshots/Sangeetaprojects/DoctorSelection.png",
     screenshots: ["/assets/projects-screenshots/Sangeetaprojects/DoctorSelection.png"],
-    live: "https://www.abhijitzende.com/",
-    github:"https://github.com/Sangeeta-Prajapati/HealthCare-Project.git",
+    live: "https://www.abhijitzende.com/", // Replace with actual healthcare app live URL
+    github: "https://github.com/Sangeeta-Prajapati/HealthCare-Project",
     skills: {
      frontend: [
         PROJECT_SKILLS.react, // React.js
@@ -375,13 +382,21 @@ const projects: Project[] = [
   },
 
   { // 02. Matrimonial Software
+    // id: "Matchmaking Pro",
+    // category: "Matrimonial Software",
+    // title: "Matchmaking Pro",
+    // src: "/assets/projects-screenshots/Sangeetaprojects/Mp-Dashboard.png",
+    // screenshots: ["/assets/projects-screenshots/Sangeetaprojects/MP-Dashboard.png"],
+    // live: "https://www.abhijitzende.com/",
+    // github:"https://github.com/Sangeeta-Prajapati/Matrimonial-Project.git",
+
     id: "Matchmaking Pro",
     category: "Matrimonial Software",
     title: "Matchmaking Pro",
     src: "/assets/projects-screenshots/Sangeetaprojects/Mp-Dashboard.png",
     screenshots: ["/assets/projects-screenshots/Sangeetaprojects/MP-Dashboard.png"],
-    live: "https://www.abhijitzende.com/",
-    github:"https://github.com/Sangeeta-Prajapati/Matrimonial-Project.git",
+    live: "https://www.abhijitzende.com/", // Replace with actual matrimonial app live URL
+    github: "https://github.com/Sangeeta-Prajapati/Matrimonial-Project",
     skills: {
       frontend: [
         PROJECT_SKILLS.react, // React.js
@@ -442,13 +457,21 @@ const projects: Project[] = [
   },
 
   { // 03. Portfolio project
+    // id: "portfolio",
+    // category: "Portfolio",
+    // title: "My Portfolio",
+    // src: "/assets/projects-screenshots/Sangeetaprojects/LandingPage.png",
+    // screenshots: ["/assets/projects-screenshots/Sangeetaprojects/LandingPage.png"],
+    // live: "https://www.abhijitzende.com/",
+    // github:"https://github.com/Abhiz2411/3D-interactive-portfolio",
+
     id: "portfolio",
     category: "Portfolio",
     title: "My Portfolio",
     src: "/assets/projects-screenshots/Sangeetaprojects/LandingPage.png",
     screenshots: ["/assets/projects-screenshots/Sangeetaprojects/LandingPage.png"],
-    live: "https://www.abhijitzende.com/",
-    github:"https://github.com/Abhiz2411/3D-interactive-portfolio",
+    live: "https://www.abhijitzende.com/", // Replace with actual portfolio live URL
+    github: "https://github.com/Abhiz2411/3D-interactive-portfolio",
     skills: {
       frontend: [
         PROJECT_SKILLS.ts,
@@ -509,13 +532,21 @@ const projects: Project[] = [
   },
 
     { // 04. Weather Forecast
+    // id: "weather-forecast",
+    // category: "weather-forecast",
+    // title: "Weather Explorer",
+    // src: "/assets/projects-screenshots/Sangeetaprojects/weatherLandingPage.png",
+    // screenshots: ["/assets/projects-screenshots/Sangeetaprojects/weatherLandingPage.png"],
+    // live: "https://weather-data-forecast-frontend-assgn.vercel.app/",
+    // github:"https://github.com/Sangeeta-Prajapati/WeatherData-Forecast-Frontend-Assgn.git",
+
     id: "weather-forecast",
     category: "weather-forecast",
     title: "Weather Explorer",
-    src: "/assets/projects-screenshots/Sangeetaprojects/weatherLandingPage.png",
+    src: "/assets/projects-screenshots/Sangeetaprojects/weatherLandinngPage.png",
     screenshots: ["/assets/projects-screenshots/Sangeetaprojects/weatherLandingPage.png"],
     live: "https://weather-data-forecast-frontend-assgn.vercel.app/",
-    github:"https://github.com/Sangeeta-Prajapati/WeatherData-Forecast-Frontend-Assgn.git",
+    github: "https://github.com/Sangeeta-Prajapati/WeatherData-Forecast-Frontend-Assgn",
     skills: {
       frontend: [
         PROJECT_SKILLS.react, // React.js
@@ -586,13 +617,21 @@ const projects: Project[] = [
   },
 
       { // 05. Crypto Currenct Tracker
+    // id: "crypto-currency-tracker",
+    // category: "crypto-currency-tracker",
+    // title: "Crypto Dashboard",
+    // src: "/assets/projects-screenshots/Sangeetaprojects/cryptoDashboard.png",
+    // screenshots: ["/assets/projects-screenshots/Sangeetaprojects/cryptoDashboard.png"],
+    // live: "https://reacts-dashboard-crypo-project.vercel.app/",
+    // github:"https://github.com/Sangeeta-Prajapati/Reacts-Dashboard--Crypo--Project.git",
+
     id: "crypto-currency-tracker",
     category: "crypto-currency-tracker",
     title: "Crypto Dashboard",
     src: "/assets/projects-screenshots/Sangeetaprojects/cryptoDashboard.png",
     screenshots: ["/assets/projects-screenshots/Sangeetaprojects/cryptoDashboard.png"],
     live: "https://reacts-dashboard-crypo-project.vercel.app/",
-    github:"https://github.com/Sangeeta-Prajapati/Reacts-Dashboard--Crypo--Project.git",
+    github: "https://github.com/Sangeeta-Prajapati/Reacts-Dashboard--Crypo--Project",
     skills: {
       frontend: [
         PROJECT_SKILLS.react, // React.js
@@ -663,13 +702,21 @@ const projects: Project[] = [
   },
 
           { // 06. Animated Electra Shop 
+    // id: "electra-shop",
+    // category: "electra-shop",
+    // title: "Electra Homepage",
+    // src: "/assets/projects-screenshots/Sangeetaprojects/ElectraHomePage.png",
+    // screenshots: ["/assets/projects-screenshots/Sangeetaprojects/ElectraHomePage.png"],
+    // live: "https://electra-shop-animated.vercel.app/",
+    // github:"https://github.com/Sangeeta-Prajapati/ElectraShop-animated.git",
+
     id: "electra-shop",
     category: "electra-shop",
     title: "Electra Homepage",
     src: "/assets/projects-screenshots/Sangeetaprojects/ElectraHomePage.png",
     screenshots: ["/assets/projects-screenshots/Sangeetaprojects/ElectraHomePage.png"],
     live: "https://electra-shop-animated.vercel.app/",
-    github:"https://github.com/Sangeeta-Prajapati/ElectraShop-animated.git",
+    github: "https://github.com/Sangeeta-Prajapati/ElectraShop-animated",
     skills: {
       frontend: [
         PROJECT_SKILLS.react, // React.js
@@ -740,13 +787,21 @@ const projects: Project[] = [
   },
   
                  { // 07. 3D Animation
+    // id: "3d-animation",
+    // category: "3d-animation",
+    // title: "3D Landing Page",
+    // src: "/assets/projects-screenshots/Sangeetaprojects/3DLandingPage.png",
+    // screenshots: ["/assets/projects-screenshots/Sangeetaprojects/3DLandingPage.png"],
+    // live: "https://github.com/Sangeeta-Prajapati/3D-animation-",
+    // github:"https://github.com/Sangeeta-Prajapati/3D-animation-.git",
+
     id: "3d-animation",
     category: "3d-animation",
     title: "3D Landing Page",
     src: "/assets/projects-screenshots/Sangeetaprojects/3DLandingPage.png",
     screenshots: ["/assets/projects-screenshots/Sangeetaprojects/3DLandingPage.png"],
-    live: "https://github.com/Sangeeta-Prajapati/3D-animation-",
-    github:"https://github.com/Sangeeta-Prajapati/3D-animation-.git",
+    live: "https://3-d-animation-two.vercel.app/", // Fixed: Use actual deployed URL
+    github: "https://github.com/Sangeeta-Prajapati/3D-animation-",
     skills: {
 frontend: [
         PROJECT_SKILLS.react, // React.js

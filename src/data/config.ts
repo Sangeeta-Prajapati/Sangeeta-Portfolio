@@ -38,10 +38,10 @@ const config = {
     return this.site + "/assets/seo/og-image.png";
   },
   social: {
-    // twitter: "https://x.com/SUBIKSH87705822",
+     twitter: "https://x.com/",
     linkedin: "https://www.linkedin.com/in/sangeeta-prajapati-496b64243",
-    // instagram: "https://www.instagram.com/im_tho_tho/",
-    // facebook: "https://www.facebook.com/profile.php?id=100010029821759",
+     instagram: "https://www.instagram.com/",
+     facebook: "https://www.facebook.com/",
     github: "https://github.com/Sangeeta-Prajapati",
   },
 };
