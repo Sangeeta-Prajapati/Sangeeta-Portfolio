@@ -395,7 +395,7 @@ const projects: Project[] = [
     id: "Matchmaking Pro",
     category: "Matrimonial Software",
     title: "Matchmaking Pro",
-    src: "/assets/projects-screenshots/Sangeetaprojects/Mp-Dashboard.png",
+    src: "/assets/projects-screenshots/Sangeetaprojects/MP-Dashboard.png",
     screenshots: [
       "/assets/projects-screenshots/Sangeetaprojects/MP-Dashboard.png",
     ],
