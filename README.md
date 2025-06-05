@@ -1,109 +1,199 @@
-# 🚀 My Portfolio Website
+# Sangeeta Prajapati - Portfolio Website
 
-Welcome to the repository for my personal portfolio website! 🎉 This project is a culmination of creativity, technology, and my dedication to showcasing my skills, projects, and personality in a visually stunning and interactive manner.
+A modern, interactive portfolio website showcasing my journey as a Full Stack Developer with expertise in Development, DevOps, and Database management. Built with cutting-edge technologies and featuring stunning 3D animations, smooth transitions, and an engaging user experience.
 
-### Live preview: https://www.abhijitzende.com/
+## 🌟 Live Demo
 
-https://github.com/Abhiz2411/3D-interactive-portfolio/blob/main/preview_video.mp4
+Visit the live portfolio: [sangeetaprajapati.com](https://www.sangeetaprajapati.com)
 
-This project is **inspired** by the amazing work of [Naresh Khatri](https://github.com/Naresh-Khatri/Portfolio). His innovative approach to web design and attention to detail has been a huge influence. Thank you, Naresh! 🙏
+## 🚀 Features
 
-## 🔥 Features
+### ✨ Interactive 3D Elements
+- **3D Keyboard Modal**: Interactive 3D keyboard rendered with Spline where each keycap reveals a skill
+- **Floating Particles**: Space-themed background with dynamic particle effects
+- **Smooth Animations**: Powered by Framer Motion for seamless user experience
 
-Here are the key highlights of my portfolio:
+### 🎨 Modern Design
+- **Dark Theme**: Elegant space-themed design with floating particles
+- **Responsive Layout**: Optimized for all devices and screen sizes
+- **Modern UI Components**: Built with ShadCN UI and Aceternity components
+- **Smooth Scrolling**: Enhanced navigation experience
 
-### 🎹 **3D Interactive Animations**
-- Features a custom-made interactive keyboard built with **Spline**.
-- Each keycap represents a skill and reveals titles and descriptions on hover for an immersive experience.
-- Smooth, responsive 3D interactions that captivate visitors.
+### 📱 Project Showcase
+- **Interactive Project Gallery**: Detailed project presentations with screenshots
+- **Live Demos**: Direct links to deployed applications
+- **Source Code**: GitHub repository links for each project
+- **Technology Stack**: Visual representation of skills used in each project
 
-### ✨ **Slick Interactions & Animations**
-- Powered by **GSAP** and **Framer Motion**, delivering buttery-smooth animations on scroll, hover, and element reveals.
-- Creative motion designs that enhance storytelling and keep users engaged.
-
-### 🌌 **Space-Themed Design**
-- Particles floating on a dark, cosmic background simulate an outer-space vibe.
-- Adds a unique and futuristic look to the portfolio.
-
-### 📱 **Responsive Design**
-- Fully responsive layout ensures the website looks and functions beautifully on all devices.
-- Optimized for both desktop and mobile experiences.
-
-### 🧠 **Innovative Web Design**
-- Combines cutting-edge technology with an intuitive user experience.
-- Creative use of animations and visuals to push the boundaries of modern web design.
+### 📧 Contact Integration
+- **Contact Form**: Integrated with Web3Forms for reliable message delivery
+- **Social Links**: Direct connections to LinkedIn and GitHub profiles
+- **Professional Email**: Direct contact information
 
 ## 🛠️ Tech Stack
 
-The portfolio website is built using the following tools and technologies:
+### Frontend
+- **Next.js 14** - React framework for production
+- **TypeScript** - Type-safe JavaScript
+- **Tailwind CSS** - Utility-first CSS framework
+- **Framer Motion** - Animation library
+- **ShadCN UI** - Modern UI components
+- **Aceternity UI** - Premium UI components
+- **Spline** - 3D design and animation
 
-- **Frontend:** Next.js, React, Tailwind CSS, Shadcn, Aceternity UI
-- **Animations:** GSAP, Framer Motion, Spline Runtime
-- **Other Tools:** Resend, Socket.io, Zod
+### Backend & Services
+- **Web3Forms** - Contact form handling
+- **Vercel** - Deployment and hosting
 
-## 🌟 Getting Started
+### Development Tools
+- **ESLint** - Code linting
+- **Prettier** - Code formatting
+- **Git** - Version control
 
-1. Clone this repository:
+## 📂 Project Structure
+
+```
+sangeeta-portfolio/
+├── public/
+│   ├── assets/
+│   │   ├── projects-screenshots/
+│   │   ├── seo/
+│   │   └── icons/
+├── src/
+│   ├── app/
+│   │   ├── api/
+│   │   │   └── send/
+│   │   ├── globals.css
+│   │   └── layout.tsx
+│   ├── components/
+│   │   ├── ui/
+│   │   ├── logos/
+│   │   ├── ContactForm.tsx
+│   │   └── slide-show.tsx
+│   ├── data/
+│   │   ├── config.ts
+│   │   └── projects.tsx
+│   └── lib/
+│       └── utils.ts
+├── package.json
+├── tailwind.config.js
+├── tsconfig.json
+└── README.md
+```
+
+## 🚀 Getting Started
+
+### Prerequisites
+- Node.js 18+ 
+- npm or yarn package manager
+
+### Installation
+
+1. **Clone the repository**
    ```bash
-   git clone https://github.com/Abhiz2411/3D-interactive-portfolio.git
+   git clone https://github.com/Sangeeta-Prajapati/Sangeeta-Portfolio.git
+   cd SangeetaPortfolio
    ```
 
-2. Navigate to the project directory:
-   ```bash
-   cd 3D-interactive-portfolio
-   ```
-
-3. Install dependencies:
+2. **Install dependencies**
    ```bash
    npm install
+   # or
+   yarn install
    ```
 
-4. Set up environment variables:
+3. **Set up environment variables**
    ```bash
-   # Create a .env.local file in the root directory
-   touch .env.local
-
-   # Add your Resend API key
-   RESEND_API_KEY=your_resend_api_key_here
+   cp .env.example .env.local
+   ```
+   
+   Add your Web3Forms access key:
+   ```env
+   WEB3FORMS_ACCESS_KEY=your_web3forms_access_key_here
    ```
 
-5. Start the development server:
+4. **Run the development server**
    ```bash
    npm run dev
+   # or
+   yarn dev
    ```
 
-6. Open your browser and navigate to:
-   ```
-   http://localhost:3000
-   ```
+5. **Open your browser**
+   Navigate to [http://localhost:3000](http://localhost:3000)
 
-## 🚀 Deployment
+## 📋 Featured Projects
 
-This project is deployed using **Vercel** for its blazing-fast performance and ease of use. You can view the live site [here](https://www.abhijitzende.com/).
+### 🏥 Healthcare App
+- **Tech Stack**: React.js, Node.js, Express.js, MongoDB
+- **Features**: Appointment booking, doctor selection, OAuth authentication
+- **Status**: In Development
 
-### Setting up Resend API on Vercel
+### 💑 Matrimonial Software (Matchmaking Pro)
+- **Tech Stack**: React.js, Node.js, Express.js, MongoDB
+- **Features**: Intelligent matching, call support, profile management
+- **Status**: In Development
 
-1. Sign up for a [Resend](https://resend.com) account and get your API key
-2. Go to your Vercel project settings
-3. Navigate to the "Environment Variables" section
-4. Add a new environment variable:
-   - Name: `RESEND_API_KEY`
-   - Value: Your Resend API key
-5. Save the changes and redeploy your application
+### 🌤️ Weather Explorer
+- **Tech Stack**: React.js, JavaScript, CSS3, Bootstrap
+- **Features**: Real-time weather data, location search, 7-day forecasts
+- **Live Demo**: [Weather Explorer](https://weather-data-forecast-frontend-assgn.vercel.app/)
 
-Note: Make sure to keep your API key secret and never commit it to your repository.
+### 💰 Crypto Dashboard
+- **Tech Stack**: React.js, JavaScript, CSS3, Bootstrap
+- **Features**: Real-time crypto tracking, interactive charts, market analysis
+- **Live Demo**: [Crypto Dashboard](https://reacts-dashboard-crypo-project.vercel.app/)
 
-## 💖 Acknowledgments
+### 🛒 Electra Shop (Animated E-commerce)
+- **Tech Stack**: React.js, JavaScript, CSS3, Bootstrap
+- **Features**: Product showcase, animated UI, responsive design
+- **Live Demo**: [Electra Shop](https://electra-shop-animated.vercel.app/)
 
-A huge shoutout to [Naresh Khatri](https://github.com/Naresh-Khatri/Portfolio) for the inspiration and ideas that sparked this journey! 💡 If you're interested in creative web design, definitely check out his work.
+### 🎨 3D Animation Landing Page
+- **Tech Stack**: React.js, JavaScript, CSS3, Spline
+- **Features**: Interactive 3D elements, advanced animations, modern design
+- **Live Demo**: [3D Animation](https://3-d-animation-two.vercel.app/)
 
-## 📬 Contact
+## 🎯 Skills & Expertise
 
-Feel free to reach out to me for collaboration, feedback, or just to say hi! 😊
+### 💻 Frontend Development
+- React.js, Next.js, TypeScript, JavaScript
+- HTML5, CSS3, Tailwind CSS, Bootstrap
+- Framer Motion, GSAP, Spline 3D
 
-- **Email:** abhijitzende75@gmail.com
-- **LinkedIn:** [Your LinkedIn Profile](https://www.linkedin.com/in/zende-abhijit/)
+### ⚙️ Backend Development
+- Node.js, Express.js
+- MongoDB, PostgreSQL
+- RESTful APIs, Authentication
+
+### 🔧 DevOps & Tools
+- Docker, Git, GitHub
+- Vercel, Netlify deployment
+- Database management
+
+## 📞 Contact Information
+
+- **Email**: [sanjuother107@gmail.com](mailto:sanjuother107@gmail.com)
+- **LinkedIn**: [Sangeeta Prajapati](https://www.linkedin.com/in/sangeeta-prajapati-496b64243)
+- **GitHub**: [Sangeeta-Prajapati](https://github.com/Sangeeta-Prajapati)
+- **Portfolio**: [sangeetaprajapati.com](https://www.sangeetaprajapati.com)
+
+## 🤝 Contributing
+
+Contributions, issues, and feature requests are welcome! Feel free to check the [issues page](https://github.com/Sangeeta-Prajapati/SangeetaPortfolio/issues).
+
+
+
+## 🙏 Acknowledgments
+
+- **Spline** for amazing 3D design tools
+- **Framer Motion** for smooth animations
+- **ShadCN** and **Aceternity** for beautiful UI components
+- **Web3Forms** for reliable contact form handling
+- **Vercel** for seamless deployment
 
 ---
 
-⭐ If you like this project, don't forget to give it a star!
+**Built with ❤️ by Sangeeta Prajapati**
+
+*Transforming ideas into digital reality through code and creativity.*
