@@ -816,7 +816,7 @@ const projects: Project[] = [
     screenshots: [
       "/assets/projects-screenshots/Sangeetaprojects/3DLandingPage.png",
     ],
-    live: "https://3-d-animation-two.vercel.app/", // Fixed: Use actual deployed URL
+    live: "https://3-d-animation-two.vercel.app/", 
     github: "https://github.com/Sangeeta-Prajapati/3D-animation-",
     skills: {
       frontend: [
@@ -898,5 +898,8 @@ const projects: Project[] = [
       );
     },
   },
+
+
+  
 ];
 export default projects;
