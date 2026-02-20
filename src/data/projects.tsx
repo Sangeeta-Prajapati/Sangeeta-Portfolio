@@ -900,6 +900,122 @@ const projects: Project[] = [
   },
 
 
+ 
+
+
+
+  // 08. StoryBit Streaming Dashboard
+{
+  id: "storybit-streaming-dashboard",
+  category: "streaming-dashboard",
+  title: "StoryBit Streaming Dashboard",
+   src: "/assets/projects-screenshots/Sangeetaprojects/streaming-dashboardLandingboard.png",
+    screenshots: [
+      "/assets/projects-screenshots/Sangeetaprojects/storybitLandingPage.png",
+    ],
+  live: "https://streaming-movie-five.vercel.app/",
+  github: "https://github.com/Sangeeta-Prajapati/StreamingMovie.git",
+  skills: {
+    frontend: [
+      PROJECT_SKILLS.next, // Next.js 14 (App Router)
+      PROJECT_SKILLS.ts, // TypeScript
+      PROJECT_SKILLS.react, // React
+      PROJECT_SKILLS.tailwind, // Tailwind CSS
+      PROJECT_SKILLS.html,
+      PROJECT_SKILLS.css,
+    ],
+    backend: [
+      PROJECT_SKILLS.node,
+      PROJECT_SKILLS.js,
+    ],
+  },
+  get content() {
+    return (
+      <div>
+        <TypographyP className="font-mono ">
+          StoryBit is a modern Netflix-style streaming dashboard built using
+          Next.js 14 App Router, TypeScript, and Tailwind CSS. The application
+          delivers featured content, categorized movie shelves, and cinematic
+          detail pages powered by real-time data from TMDB API.
+        </TypographyP>
+
+        <ProjectsLinks live={this.live} repo={this.github} />
+
+        <TypographyH3 className="my-4 mt-8">
+          Server-Rendered Streaming Experience
+        </TypographyH3>
+        <p className="font-mono mb-2">
+          The homepage is fully server-rendered using Next.js App Router,
+          ensuring fast load times and optimized SEO. It includes a dynamic
+          hero banner showcasing featured movies along with multiple
+          horizontally scrollable movie rows such as Trending, Popular,
+          and Top Rated categories.
+        </p>
+
+        <SlideShow
+          images={[
+            `${BASE_PATH}/Sangeetaprojects/storybitLandingPage.png`,
+            `${BASE_PATH}/Sangeetaprojects/trailer.png`,
+          ]}
+        />
+
+        <TypographyH3 className="my-4 ">
+          Dynamic Movie Detail Pages
+        </TypographyH3>
+        <p className="font-mono mb-2">
+          Each movie has a dedicated dynamic route that displays detailed
+          information including synopsis, ratings, release date, genres,
+          and external links. The detail layout is designed with a cinematic
+          feel, inspired by modern OTT platforms like Netflix.
+        </p>
+
+        <SlideShow
+          images={[
+            `${BASE_PATH}/Sangeetaprojects/popular-topRated.png`,
+            `${BASE_PATH}/Sangeetaprojects/visitSite-IMDb.png`,
+          ]}
+        />
+
+        <TypographyH3 className="my-4 mt-8">
+          Optimized Architecture & Performance
+        </TypographyH3>
+
+        <p className="font-mono mb-2">
+          Built with TypeScript for type safety and scalable architecture,
+          the project includes structured API helper utilities for TMDB with
+          caching and error handling. Server Components eliminate client-side
+          data waterfalls, improving performance and reducing Time to First Byte (TTFB).
+        </p>
+
+        <TypographyH3 className="my-4 ">
+          Modern UI & Deployment Ready
+        </TypographyH3>
+
+        <p className="font-mono mb-2">
+          The UI follows a glassmorphism-inspired design system with full
+          responsiveness across desktop and mobile devices. Images are
+          optimized using Next.js Image component for improved Largest
+          Contentful Paint (LCP). The project is fully deployment-ready
+          on Vercel with environment variable configuration for TMDB API.
+        </p>
+
+        <SlideShow
+          images={[
+            `${BASE_PATH}/Sangeetaprojects/searchMovie.png`,
+            `${BASE_PATH}/Sangeetaprojects/moviesRows.png`,
+          ]}
+        />
+
+        <p className="font-mono mb-2 mt-8 text-center">
+          A production-ready streaming dashboard focused on performance,
+          scalability, accessibility, and modern frontend architecture.
+        </p>
+      </div>
+    );
+  },
+},
+
+
   
 ];
 export default projects;
